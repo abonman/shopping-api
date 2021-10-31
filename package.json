@@ -1,0 +1,26 @@
+{
+  "name": "ekinoks",
+  "version": "1.0.0",
+  "description": "online shopping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cagri anik",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "pgtools": "^0.3.2",
+    "sequelize": "^6.8.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "typescript": "^4.4.4"
+  }
+}
