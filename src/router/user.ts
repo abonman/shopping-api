@@ -16,7 +16,7 @@ router.post("/users/login", async (req, res) => {
     }
     user.token = jwt.sign({ _id: user.username }, "cagri_login_secret");
     await user.save()
-    return res.status(200).send({ message: "aferim oldu", user });
+    return res.status(200).send({ message: "giriş başarılı oldu", user });
   } catch (err) {
     console.log(err);
     return res.status(400).send({
